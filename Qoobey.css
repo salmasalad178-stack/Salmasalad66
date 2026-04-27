@@ -1,0 +1,141 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(QOOBEEY.gif);
+    background-size:300vw 300vh;
+    background-repeat: no-repeat;
+    
+}
+header{
+    background-color: red;
+}
+/* class selector of menu page */
+.bg{
+    background-color: blue;
+    color: olive;
+}
+
+header h1{
+    font-size: 3em;
+    text-align: center;
+    color:#ffffff;
+}
+
+/* descdent selector  */
+header p{
+    color:#fffedc;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+}
+
+nav a{
+    color: goldenrod;
+    font-size:30px;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type:none;
+    font-size: 25px;
+}
+
+
+main p{
+    line-height: 2em;
+    color: blue;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 9%;
+    text-indent: 30px;
+    
+}
+
+main p span {
+    color: black;
+    background: wheat;
+    text-transform: uppercase;
+}
+main h2 {
+    background-color: red;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+main ul li{
+    color:blue;
+    font-size: 1em;
+    font-weight: bold;
+    
+
+}
+.blockquote{
+    font-size: 1em;
+    font-weight:bold ;
+    font-style: italic;
+    color:blue;
+}
+
+.footer{
+    background-color: lightblue;
+    height:55px;
+    font-size: 1.9em;
+    font-style: italic;
+    
+}
+
+.restaurant{
+width: 400px;
+height: 400px;
+}
+.menu-list{
+    list-style: none;
+    padding: 0;
+}
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 80px;
+    
+}
+.menu-img{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px
+}
+.menu-text i{
+    display:block;
+    margin-bottom: 9px;
+    font-size: 1.1rem;
+}
+img{
+    float: left;
+    margin-right: 10px;
+    width:50px;
+}
+li{
+    clear:both;
+    padding-bottom: 10px;
+}
+#img{
+    width:400;
+}
+#imag{
+    width:300;
+}
+
+
+
+
+
+
+
+
+
+
